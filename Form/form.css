@@ -1,0 +1,65 @@
+#last_para {
+    font-size: 22pt;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px lightslategrey;
+}
+
+#last_footer {
+    font-size: 16pt;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px lightslategrey;
+}
+
+#first_header {
+    font-size: 18pt;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px darkgray;
+}
+
+#first_heading {
+    font-weight: lighter;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+
+#supporting_header {
+    font-size: 15pt;
+    font-weight: lighter;
+    color: black;
+    text-shadow: 1px 1px 1px darkgray;
+}
+
+.jumbotron {
+    background-color: #36D7B7;
+    box-shadow: 12px 15px 20px rgba(0,0,0,.1);
+
+}
+
+
+.index--standard--mpCCh {
+    padding: 1.2em 4em;
+}
+.index--primary--3XfTi {
+    background: #36D7B7;
+}
+.index--_btn--1QPC1 {
+    border: none;
+    border-radius: 4px;
+    box-shadow: 12px 15px 20px rgba(0,0,0,.1);
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Open Sans,sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .165em;
+    max-width: 100%;
+    text-transform: uppercase;
+    transition: box-shadow .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    white-space: nowrap;
+}
+
+.index--_btn--1QPC1:active {
+    box-shadow: -1px -1px 1px rgba(0,0,0,.1);
+
+}
