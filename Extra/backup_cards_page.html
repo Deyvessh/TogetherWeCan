@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+    <!-- Popper -->
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+        crossorigin="anonymous"></script>
+    <script>$(document).ready(function () { $('body').bootstrapMaterialDesign(); });</script>
+
+    <link rel="stylesheet" href="Cards_page.css">
+    <script src="Cards_page.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Together, We Can</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="Cards_page.html">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+                <a class="nav-item nav-link" href="image.html">Gallery</a>
+                <a class="nav-item nav-link" href="#">Contact Us</a>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        More
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">About our Website</a>
+                        <a class="dropdown-item" href="#">Our Team</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">@Write us</a>
+                    </div>
+                </li>
+            </div>
+        </div>
+
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Find Something">
+            <button type="button" class="index--primary--3XfTi index--_btn--1QPC1  index--standard--mpCCh" style="cursor: pointer;">Search</button>
+        </form>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <h1 id="first_heading">Home</h1>
+        <br>
+        <p id="first_header">Collabrative efforts done by active NGOs in India</p>
+        <p id="supporting_header">If we all act together - business, governments, NGOs and citizens and, especially, the young - just imagine the good we could create.</p>
+        <footer><i> - Paul Polman</i></footer>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="card-deck">
+                <div class="card text-center" class="col-sm-3">
+                    <img class="card-img-top" src="HelpAgeIndia.png" alt="Card image cap">
+                    <div class="card-block">
+                        <h5 class="card-title">HelpAge India</h5>
+                        <p class="card-text">HelpAge India is a leading charity in India working with and for disadvantaged elderly for nearly
+                            4 decades. There are an estimated 104 million elderly in India. It works hand-in-hand with Senior
+                            Citizens Associations understanding elder needs working with and for them.</p>
+                        <!-- <a href="https://www.helpageindia.org/" class="btn btn-primary">Link to Website</a> -->
+                        <button type="button" class="index--primary--3XfTi index--_btn--1QPC1  index--standard--mpCCh" style="cursor: pointer;" onclick="relocate_helpageindia()">
+                            @HelpAgeIndia</button>
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card text-center" class="col-sm-3">
+                    <img class="card-img-top" src="smilefoundation.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h5 class="card-title">Smile Foundation</h5>
+                        <p class="card-text">Smile Foundation is to empower underprivileged children through relevant education, innovative healthcare
+                            and market-focused livelihood programmes to practice and promote good governance. also to sensitize
+                            privileged children to promote Civic Driven Change.
+                        </p>
+                        <!-- <a href="https://www.smilefoundationindia.org" class="align-self-end btn btn-primary">Link to Website</a> -->
+                        <button type="button" class="index--primary--3XfTi index--_btn--1QPC1  index--standard--mpCCh" style="cursor: pointer;" onclick="relocate_smilefoundation()">@SmileFoundation</button>
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card text-center" class="col-sm-3">
+                    <img class="card-img-top" src="nanhikali.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h5 class="card-title">Nanhi Kali</h5>
+                        <p class="card-text">Project Nanhi Kali is working with 19 NGO partners including Naandi Foundation at the grassroot level
+                            to ensure that the girls receive academic and material support. The objective of impacting the
+                            nation's development through education of the girl child</p>
+                        <!-- <a href="https://www.nanhikali.org/" class="btn btn-primary">Link to Website</a> -->
+                        <button type="button" class="index--primary--3XfTi index--_btn--1QPC1  index--standard--mpCCh" style="cursor: pointer;" onclick="relocate_nanhikali()">@NanhiKali</button>
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card text-center" class="col-sm-3">
+                    <img class="card-img-top" src="goonj.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h5 class="card-title">Goonj</h5>
+                        <p class="card-text">Goonj (means an echo) a multi award winning social enterprise focused on disaster relief, humanitarian
+                            aid and community development to work on basic needs like clothing, sanitary pads for village
+                            while changing the dynamics of giving and receiving with dignity.</p>
+                        <!-- <a href="https://goonj.org/" class="btn btn-primary">Link to Website</a> -->
+                        <button type="button" class="index--primary--3XfTi index--_btn--1QPC1  index--standard--mpCCh" style="cursor: pointer;" onclick="relocate_goonj()">@Goonj</button>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="card-deck">
+                <div class="card" class="col-sm-3">
+                    <img class="card-img-top" src="chetna.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h5 class="card-title">Chetna</h5>
+                        <p class="card-text">CHETNA has grown to become a pioneering organisation in raising child protection issues with a team
+                            of experienced social workers and professionals. Some members of our team were themselves street
+                            and working children, who with the help of CHETNA worked their way to a better life.</p>
+                        <!-- <a href="http://chetnango.org" class="btn btn-primary">Link to Website</a> -->
+                        <button type="button" class="index--primary--3XfTi index--_btn--1QPC1  index--standard--mpCCh" style="cursor: pointer;" onclick="relocate_chetna()">@Chetna</button>
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" class="col-sm-3">
+                    <img class="card-img-top" src="pratham.png" alt="Card image cap">
+                    <div class="card-block">
+                        <h5 class="card-title">Pratham</h5>
+                        <p class="card-text">Pratham is an innovative learning organization created to improve the quality of education in India.
+                            Pratham focuses on high-quality, low-cost, and replicable interventions to address gaps in the
+                            education system. Providing education to children in the slums of Mumbai and has grown to wide
+                            geographical coverage.</p>
+                        <!-- <a href="http://www.pratham.org" class="btn btn-primary">Link to Website</a> -->
+                        <button type="button" class="index--primary--3XfTi index--_btn--1QPC1  index--standard--mpCCh" style="cursor: pointer;" onclick="relocate_pratham()">@Pratham</button>
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" class="col-sm-3">
+                    <img class="card-img-top" src="sammaan.png" alt="Card image cap">
+                    <div class="card-block">
+                        <h5 class="card-title">Sammaan</h5>
+                        <p class="card-text">The non-governmental organisation Sammaan Foundation has come up into establishment back in the year
+                            2007 which ensures a better living for the people of our society extensively around the globe.
+                            They work for the unprivileged children, women and youngsters who are sadly lie below the poverty
+                            line.
+                        </p>
+                        <!-- <a href="http://sammaan.org" class="btn btn-primary">Link to Website</a> -->
+                        <button type="button" class="index--primary--3XfTi index--_btn--1QPC1  index--standard--mpCCh" style="cursor: pointer;" onclick="relocate_sammaan()">@Sammaan</button>
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" class="col-sm-3">
+                    <img class="card-img-top" src="leprasociety.png" alt="Card image cap">
+                    <div class="card-block">
+                        <h5 class="card-title">Lapra Society</h5>
+                        <p class="card-text">LEPRA Society is a non-governmental organisation that promotes quality health care, initiates and
+                            fosters new developments and implementation. The Society aims to support the National Health
+                            Programmes in the prevention and control of diseases such as Leprosy, Lymphatic Filariasis and
+                            other neglected diseases.</p>
+                        <!-- <a href="http://leprasociety.org/" class="btn btn-primary">Link to Website</a> -->
+                        <button type="button" class="index--primary--3XfTi index--_btn--1QPC1  index--standard--mpCCh" style="cursor: pointer;" onclick="relocate_leprasociety()">@LepraSociety</button>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p class="main_footer">Together, We Can</p>
+        <p>All Right Reserved Copyright © 2018</p>
+    </div>
+
+
+</body>
+
+</html>

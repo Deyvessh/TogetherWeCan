@@ -1,10 +1,13 @@
+
+
 #last_para {
     font-size: 22pt;
     font-weight: lighter;
-    text-shadow: 1px 1px 1px lightslategrey;
+    text-shadow: 1px 1px 4px lightslategrey;
 }
 
 #last_footer {
+    color: darkolivegreen;
     font-size: 16pt;
     font-weight: lighter;
     text-shadow: 1px 1px 1px lightslategrey;
@@ -44,7 +47,7 @@
 }
 .index--_btn--1QPC1 {
     border: none;
-    border-radius: 4px;
+    border-radius: 30px;
     box-shadow: 12px 15px 20px rgba(0,0,0,.1);
     color: black;
     cursor: pointer;
@@ -63,3 +66,89 @@
     box-shadow: -1px -1px 1px rgba(0,0,0,.1);
 
 }
+
+#login {
+    border-radius: 4px;
+    box-shadow: 12px 15px 20px rgba(0,0,0,.1);
+    transition: box-shadow .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+}
+
+.index--standard--mpCC {
+    padding: 1.2em 4em;
+}
+.index--primary--3XfT {
+    background: black;
+}
+.index--_btn--1QPC {
+    border: none;
+    border-radius: 30px;
+    box-shadow: 12px 15px 20px rgba(0,0,0,.1);
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Open Sans,sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .165em;
+    max-width: 100%;
+    text-transform: uppercase;
+    transition: box-shadow .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    white-space: nowrap;
+}
+
+.index--_btn--1QPC:active {
+    box-shadow: -1px -1px 1px rgba(0,0,0,.1);
+}
+
+
+.main_footer {
+    margin-top: 6px;
+    size: 28pt;
+}
+.footer {
+    background-color: #36D7B7;
+    border-radius: 5px;
+    -moz-box-shadow: 4px 4px 5px #999;
+    -webkit-box-shadow: 4px 4px 5px #999;
+    box-shadow: 12px 15px 20px rgba(0,0,0,.1);
+    font-size: 15pt;
+    font-weight: lighter;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    color: Black;
+    text-align: center;
+ }
+
+
+.index--standard--mpC {
+    padding: 1.2em 4em;
+}
+.index--primary--3Xf {
+    background: #36D7B7;
+}
+.index--_btn--1QP {
+    border: none;
+    border-radius: 30px;
+    box-shadow: 12px 15px 20px rgba(0,0,0,.1);
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Open Sans,sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .165em;
+    max-width: 100%;
+    text-transform: uppercase;
+    transition: box-shadow .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    white-space: nowrap;
+}
+
+.index--_btn--1QP:active {
+    box-shadow: -1px -1px 1px rgba(0,0,0,.1);
+
+}
+
+

@@ -1,0 +1,99 @@
+
+/*
+
+Free for personal & commercial Use !!
+
+Author : http://consultmachine.com/html-bootstrap/
+
+Copyright : 2017
+
+This is distributed under MIT licence, you can read full licence below :
+https://opensource.org/licenses/MIT
+
+*/
+
+  /* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Bitter|Quicksand');
+
+/* General Styles */
+body{
+  font-size: 16px;
+    line-height: 35px;
+    font-family: 'Quicksand', sans-serif;
+}
+.pad-set{
+      padding: 5px 40px 5px 0px;
+}
+.pad-set-top{
+padding-top:25px;
+}
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.border-img{
+  border:5px solid rgba(254, 224, 0, 0.96);
+  margin-top: :10px;
+}
+
+/* Header Styles */
+header{
+  background: url(../images/header.jpg) no-repeat center center;
+  padding: 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+header .overlay{
+  padding-top: 120px;
+background-color: rgba(1, 1, 1, 0.85);
+padding-bottom: 120px;
+color: #fff;
+}
+header .big-head{
+  font-family: 'Bitter', serif;
+      font-size: 50px;
+      font-weight: 900;
+      color: rgba(254, 224, 0, 0.96);
+}
+header .inner-text{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+}
+header .donate-btn {
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgba(254, 224, 0, 0.96);
+    border-radius: 0px;
+    border:0px;
+    color: #000;
+    font-weight: 900;
+    padding: 10px 20px;
+}
+
+
+/* About Styles */
+.about-set{
+  background-color: #d7d7d7;
+}
+
+/* Footer Styles */
+footer {
+    padding: 60px 40px;
+    background-color: #373737;
+    color: #9E9E9E;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+}
+footer .btn-donate-fo{
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgba(254, 224, 0, 0.96);
+    border-radius: 0px;
+    border:0px;
+    color: #000;
+    font-weight: 900;
+    padding: 5px 10px;
+}
+footer h3{
+  color: rgba(254, 224, 0, 0.96);
+
+}
